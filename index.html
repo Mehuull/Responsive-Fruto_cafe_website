@@ -1,1 +1,459 @@
-hello
+<!-- Ganpati Bappa Morya -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Respinsive Drink-Bar Website </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.js" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="assets/Logo.png" alt="logo">
+            </div>
+        
+            <div class="menu-container">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#feedback">feedback</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+        
+                <div class="signin-btn">
+                    <button class="sign-in-btn">Sign In</button>
+                </div>
+        
+                <div class="burger" onclick="toggleMenu()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+              <!-- hero section -->
+<section class="home" id="home">
+        <div class="box1">
+            <div class="image-container">
+                <img src="assets/juise.png" alt=" ">
+            </div>
+        </div>
+        <div class="box2">
+            <div class="content-container">
+                <h3>freshly milkshake</h3>
+                <h1>&emsp;&emsp;just for you</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nam dolore perferendis. Dolor, numquam accusantium?</p>
+                <a class="button"  href="#">Order now</a>
+            </div>
+        </div>
+
+        <div class="cherry-container">
+            <img src="assets/Strawberry.png" alt="">
+        </div>
+        <div class="berry-container">
+            <img src="assets/cherry.png" alt="">
+        </div>
+       <!-- complete -->
+</section>
+
+
+
+
+                <!-- shop section -->
+<section class="swiper-main" id="shop">
+    <h1> - All types of drinks -</h1>
+    <h3>Drink and enjoy</h3>
+    
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <a class="swiper-slide">
+                <div class="swiper-img">
+                    <img src="assets/cola.png" alt="">
+                </div>
+                <div class="info">
+                    <h3> Cold drinks </h3>
+                    <span>starting from ₹20</span>
+                </div>
+            </a>
+
+            <a class="swiper-slide">
+                <div class="swiper-img">
+                    <img src="assets/milkshake.png" alt="">
+                </div>
+                <div class="info">
+                    <h3> Milk shakes </h3>
+                    <span>starting from ₹50</span>
+                </div>
+            </a>
+
+            <a class="swiper-slide"> 
+                <div class="swiper-img">
+                    <img src="assets/smoothie.png" alt="">
+                </div>
+                <div class="info">
+                    <h3> Smoothie </h3>
+                    <span>starting from ₹60</span>
+                </div>
+            </a>
+
+            <a class="swiper-slide" href="#">
+                <div class="swiper-img">
+                    <img src="assets/fruitjuise.png" alt="">
+                </div>
+                <div class="info">
+                    <h3> Fresh fruit juise </h3>
+                    <span>starting from ₹20</span>
+                </div>
+            </a>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div> 
+</section>
+
+
+
+                <!-- about section -->
+<section class="about" id="about">
+    <div class="box1">
+        <div class="content-container">
+            <div class="content1">
+                <h1>100% Pure ,</h1>
+                <h2>&emsp;&emsp; for sure</h2>
+            </div> 
+            <div class="content2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nam dolore perferendis. Dolor, numquam accusantium?</p>
+                <ul>
+                    <li><i class="fas 
+                        fa-arrow-right"></i>we believe in delivering the freshest and healthiest drinks to our customers. We carefully select the finest fruits and ingredients to create our beverages, ensuring every sip is a burst of natural goodness.</li>
+                    <li><i class="fas 
+                        fa-arrow-right"></i>We prioritize quality in every drink we make. Our fruits are sourced from trusted suppliers, and we avoid artificial flavors and preservatives. Every beverage is crafted with care, ensuring a delicious and nutritious experience.</li>
+                    <li><i class="fas 
+                        fa-arrow-right"></i>Whether you're craving a refreshing fruit juice, a creamy milkshake, or an ice-cold drink, we have something to satisfy every taste bud. Our diverse menu is designed to offer something for everyone, from the health-conscious to the indulgent.</li>
+                </ul>
+            </div> 
+
+
+                <a class="button"  href="#">Order now</a>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="image-container">
+            <img src="assets/mixture.png" alt=" ">
+        </div>
+    </div>
+
+</section>
+
+
+<!-- infinite slider -->
+<section class="product">
+<div class="heading">
+    <h1>Our Ready to use products</h1>
+</div>
+<div class="slider">
+    <div class="slider-track">
+
+        <div class="slide">
+            <img src="assets/MS1.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS2.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS3.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS4.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS5.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS6.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS7.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS8.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS9.png" alt="">
+        </div>
+
+        <!-- same slide 2nd -->
+        <div class="slide">
+            <img src="assets/MS1.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS2.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS3.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS4.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS5.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS6.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS7.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS8.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS9.png" alt="">
+        </div>
+
+        <!-- same slide 3rd -->
+        <div class="slide">
+            <img src="assets/MS1.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS2.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS3.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS4.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS5.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS6.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS7.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS8.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/MS9.png" alt="">
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+                <!-- feedback section -->
+
+ <section id="feedback" class="feedback">
+    <div class="content">
+        <h1><i class="fa-solid fa-quote-left" style="font-size: 5rem;"></i> what customers says</h1>
+    </div>
+
+    <div class="box-container">
+
+         <!-- box 1 -->
+        <div class="box">
+            <div class="profile-container">
+                <div class="profile">
+                    <div class="dp">
+                        <img src="assets/mohitsharma.jpg" alt="">
+                    </div>
+                    <div class="cname">
+                        <span>mohit Sharma</span>
+                    </div>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="content">
+                <p>"I absolutely love the variety at Fruto Drinks Bar! The fresh fruit juices are a perfect start to my day, and the milkshakes are just
+                     divine. The quality is top-notch, and I can always count on a refreshing and healthy drink. Highly recommended!"</p>
+            </div> 
+        </div>
+
+        <!-- box 2 -->
+        <div class="box">
+            <div class="profile-container">
+                <div class="profile">
+                    <div class="dp">
+                        <img src="assets/shakshijoshi.png" alt="">
+                    </div>
+                    <div class="cname">
+                        <span>shakshi joshi</span>
+                    </div>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div> 
+            <div class="content">
+                <p>"Fruto Drinks Bar is my go-to spot for a refreshing break. Their drinks are always fresh and flavorful, and I appreciate their commitment to
+                     using natural ingredients. The staff is friendly, and the atmosphere is welcoming. It's the perfect place to unwind with a great drink."</p>
+            </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="box">
+            <div class="profile-container">
+                <div class="profile">
+                    <div class="dp">
+                        <img src="assets/divansh.jpg" alt="">
+                    </div>
+                    <div class="cname">
+                        <span>Divansh</span>
+                    </div>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div> 
+            <div class="content">
+                <p>"I’m obsessed with the innovative flavors at Frooto Drinks Bar! They always have something new and exciting to try. 
+                    Whether I’m in the mood for a light juice or a creamy milkshake, they never disappoint. The quality and taste are
+                     consistently amazing!"</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+                    <!-- contact us -->
+
+<section class="contact" id="contact">
+<div class="contact-container">
+    <div class="heading">
+        <h1>Contact us</h1>
+    </div>
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Contact number</h3>
+            <p>+xx xxxxxxxxxx</p>
+            <p>+xx xxxx xxx xxx</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>xxxxxxxxxxx@gmail.com</p>
+            <p>xyzabc@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>address</h3>
+            <p>India</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <input type="text"
+                    placeholder="enter your name" class="box">
+                <input type="text"
+                    placeholder="enter your email" class="box">
+            </div>
+            <div class="inputBox">
+                <input type="number"
+                    placeholder="enter your number" class="box">
+                <input type="text"
+                    placeholder="enter your subject" class="box">
+            </div>
+            <textarea placeholder=" your message" cols="30"
+                    rows="10"></textarea>
+            <a class="button"  href="#">submit</a>
+        </form>
+    </div>
+</div>
+</section>
+
+
+
+                    <!-- footer -->
+<footer>
+    <span class="footer-title">Fruto soft-Drink bar</span>
+    <ul class="socials">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+    <div class="info">
+        <ul>
+            <li class="footer-list_header">offers</li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">categories</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+
+        <ul>
+            <li class="footer-list_header">documents</li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">privecy policy</a></li>
+            <li><a href="#">terms of service</a></li>
+            <li><a href="#">cookies</a></li>
+        </ul>
+
+        <ul>
+            <li class="footer-list_header">for you</li>
+            <li><a href="#">manuals</a></li>
+            <li><a href="#">tutorials</a></li>
+            <li><a href="#">tips & tricks</a></li>
+            <li><a href="#">F & Q</a></li>
+        </ul>
+
+        <ul>
+            <li class="footer-list_header">work with us</li>
+            <li><a href="#">affiliate</a></li>
+            <li><a href="#">collaboration</a></li>
+            <li><a href="#">sponsorships</a></li>
+            <li><a href="#">partnerships</a></li>
+        </ul>
+    </div>
+    <section class="credit">created by <span><i class="fa-brands fa-github"></i>&nbsp;Mehuull</span></section>
+</footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>   
+    <script src="script.js"></script>
+</body>
+</html>
