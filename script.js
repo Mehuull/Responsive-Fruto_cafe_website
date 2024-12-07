@@ -10,25 +10,23 @@ function toggleMenu() {
 }
 
 const swiper = new Swiper('.swiper-container', {
-    loop: true, // Enables infinite loop
+    loop: true, 
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
     autoplay: {
-        delay: 3000, // Auto slide every 3 seconds
+        delay: 3000, 
         disableOnInteraction: false, 
     },
     slidesPerView: 3, 
     spaceBetween: 10, 
     breakpoints: {
-        // when window width is >= 0px
         0: {
-            slidesPerView: 1, // Show 1 slide per view on mobile
+            slidesPerView: 1,
         },
-        // when window width is >= 768px
         768: {
-            slidesPerView: 3, // Show 3 slides per view on desktop
+            slidesPerView: 3,
         },
     }
 });
@@ -46,4 +44,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-s
